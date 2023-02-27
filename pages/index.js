@@ -59,17 +59,17 @@ export default function Home() {
         } 
 
         if(w.weather[0].main == 'Clouds') {
-          icon = '/icons/broken-clouds.png'
+          icon = '/icons/broken-clouds.svg'
         } else if (w.weather[0].main == 'Clear') {
-          icon = '/icons/clear-sky.png'
+          icon = '/icons/clear-sky.svg'
         } else if (w.weather[0].main == 'Atmosphere') {
-          icon = '/icons/mist.png'
+          icon = '/icons/mist.svg'
         } else if (w.weather[0].main == 'Rain') {
-          icon = '/icons/shower-rain.png'
+          icon = '/icons/shower-rain.svg'
         } else if (w.weather[0].main == 'Snow') {
-          icon = '/icons/snow.png'
+          icon = '/icons/snow.svg'
         } else if (w.weather[0].main == 'Thunderstorm') {
-          icon = '/icons/thunderstorm.png'
+          icon = '/icons/thunderstorm.svg'
         }
 
         var now = new Date(w.dt_txt);
